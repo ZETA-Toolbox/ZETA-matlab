@@ -2,13 +2,13 @@
 
 **Z**onotope-based **E**s**T**imation and f**A**ult diagnosis of discrete-time systems
 
-- Check our [preprint](https://arxiv.org/abs/2504.06467) submitted to the 64th IEEE Conference on Decision and Control
+- Check our [paper](https://doi.org/10.1109/CDC57313.2025.11312660) presented at the 64th IEEE Conference on Decision and Control (or the [preprint](https://arxiv.org/abs/2504.06467))
 - by Brenner S. Rego, Joseph K. Scott, Davide M. Raimondo, Marco H. Terra and Guilherme V. Raffo
 
 ZETA is a MATLAB library featuring implementations of set representations based on zonotopes, namely: 
 - [Zonotopes](https://doi.org/10.1007/BF02684450),
 - [Constrained zonotopes](https://web.mit.edu/braatzgroup/Scott_Automatica_2016.pdf), and
-- [Line zonotopes](https://arxiv.org/abs/2401.10239),
+- [Line zonotopes](https://doi.org/10.1016/j.automatica.2025.112380),
   
 in addition to a basic implementation of [interval arithmetic](https://en.wikipedia.org/wiki/Interval_arithmetic). 
 
@@ -32,10 +32,11 @@ The library is initialized by running `zeta_init.m`.
 
 If you have used this library as part of your work, cite it as follows:
 ```
-@misc{Rego2025ZETA,
-title={{ZETA: a library for Zonotope-based EsTimation and fAult diagnosis of discrete-time systems}}, 
-author={Brenner S. Rego and Joseph K. Scott and Davide M. Raimondo and Marco H. Terra and Guilherme V. Raffo},
+@inproceedings{Rego2025ZETA,
+author={Rego, Brenner S. and Scott, Joseph K. and Raimondo, Davide M. and Terra, Marco H. and Raffo, Guilherme V.},
+booktitle={2025 IEEE 64th Conference on Decision and Control (CDC)}, 
+title={ZETA: a library for Zonotope-based EsTimation and fAult diagnosis of discrete-time systems}, 
 year={2025},
-note={arXiv preprint. arXiv:2504.06467}
+pages={2420--2427}
 }
 ```
