@@ -28,9 +28,11 @@ also implemented for the respective set representations.
 
 The library is initialized by running `zeta_init.m`.
 
+In addition to the conference paper, the most up-to-date documentation of this library can be found [here](https://github.com/ZETA-Toolbox/ZETA-matlab/wiki).
+
 ### Citation
 
-If you have used this library as part of your work, cite it as follows:
+If you have used this library as part of your work, please cite it as follows:
 ```
 @inproceedings{Rego2025ZETA,
 author={Rego, Brenner S. and Scott, Joseph K. and Raimondo, Davide M. and Terra, Marco H. and Raffo, Guilherme V.},
